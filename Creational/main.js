@@ -1,6 +1,6 @@
-const Task = require('./Creational/Constructor/task');
-const Project = require('./Creational/Constructor/project');
-const RepoFactory = require('./Creational/Factory/repoFactory');
+const Task = require('./Constructor/task');
+const Project = require('./Constructor/project');
+const RepoFactory = require('./Factory/repoFactory');
 
 const task1 = new Task(RepoFactory.task.get('task1'));
 const task2 = new Task(RepoFactory.task.get('task2'));
